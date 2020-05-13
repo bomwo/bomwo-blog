@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactUtterences from 'react-utterances'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
@@ -9,6 +10,7 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
+    const repo = 'bomwo/bomwo'
 
     const homeBlock = (
       <div>
@@ -35,10 +37,11 @@ class PostTemplateDetails extends React.Component {
 
     const commentsBlock = (
       <div>
-        <Disqus
-          postNode={post}
-          siteMetadata={this.props.data.site.siteMetadata}
-        />
+{/*         <Disqus */}
+{/*           postNode={post} */}
+{/*           siteMetadata={this.props.data.site.siteMetadata} */}
+{/*         /> */}
+        <ReactUtterences repo={repo} type={'pathname'} />
       </div>
     )
 
