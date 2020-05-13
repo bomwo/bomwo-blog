@@ -7,9 +7,9 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: '데이터와 개발을 좋아하는 사람',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      '데이터와 개발을 좋아하는 사람',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,20 +20,13 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
+      }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      name: 'Bomwo',
+      email: 'bomwo25@gmail.com',
+      github: 'bomwo',
       rss: '#',
-      vk: '#',
     },
   },
   plugins: [
