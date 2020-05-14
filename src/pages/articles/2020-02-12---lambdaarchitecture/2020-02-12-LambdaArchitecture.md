@@ -4,7 +4,7 @@ date: "2020-02-12T00:00:00.000Z"
 layout: post
 draft: false
 path: "/posts/lambdaArchitecture/"
-categories: "Data Engineering"
+category: "아키텍쳐"
 tags:
   - "Lambda Architecture"
 ---
