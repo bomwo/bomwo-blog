@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://bomwo.cc'
 
 module.exports = {
   siteMetadata: {
@@ -30,6 +30,14 @@ module.exports = {
     },
   },
   plugins: [
+     'gatsby-plugin-robots-txt',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages'
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
