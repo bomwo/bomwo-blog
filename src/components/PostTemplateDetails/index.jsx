@@ -10,7 +10,7 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-    const repo = 'bomwo/bomwo'
+    const repo = 'bomwo/bomwo-blog'
 
     const homeBlock = (
       <div>
