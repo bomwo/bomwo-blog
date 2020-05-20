@@ -20,6 +20,13 @@ class IndexRoute extends React.Component {
           <Helmet>
             <title>{title}</title>
             <meta name="description" content={subtitle} />
+            <meta name="naver-site-verification" content="b5572688eeb69cd91ff10326b491a08c2b8fabcd" />
+            <meta name="google-site-verification" content="VjQemXDe90W0lpHMcRSs5_2luGRIPX7XwH8xO7-NKQ0" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={subtitle} />
+            <meta property="og:image" content={profilePic} />
+            <meta property="og:url" content={siteUrl} />
           </Helmet>
           <Sidebar {...this.props} />
           <div className="content">
