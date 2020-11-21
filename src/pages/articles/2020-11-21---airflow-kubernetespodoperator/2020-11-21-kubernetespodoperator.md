@@ -90,9 +90,7 @@ run = KubernetesPodOperator(
     namespace='development',
     image='test/image',
     secrets=[
-        google_env,
-        googleanaytics_env,
-
+        env
     ],
     image_pull_secrets=[k8s.V1LocalObjectReference('image_credential')],
     name="job",
@@ -119,11 +117,7 @@ Secret = Secret(
     'Secret',
 )
 
-secrets=[
-        google_env,
-        googleanaytics_env,
-
-    ],
+secrets=[env],
 env_from=configmaps
 
 ```
