@@ -63,4 +63,3 @@ ETL이란 데이터 웨어하우스 구축 시 데이터를 운영 시스템에�
 
 #### 출처
 - [beyond-modern-data-architecture](https://www.snowflake.com/blog/beyond-modern-data-architecture/)
-
