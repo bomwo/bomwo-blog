@@ -1,6 +1,6 @@
 ---
 title: 데이터 웨어하우스(DW) 란 무엇일까 (1) 
-date: "2020-12-05T15:00:00.000.000Z"
+date: "2020-12-05T14:00:00.000Z"
 layout: post
 draft: false
 path: "/posts/Datawarehouse/"
