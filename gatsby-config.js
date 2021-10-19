@@ -128,6 +128,12 @@ module.exports = {
       options: { trackingId: 'UA-167184578-1' },
     },
     {
+      resolve: 'gatsby-plugin-google-adsense',
+      options: {
+        publisherId: 'ca-pub-9273244596514190'
+      },
+    },
+    {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: ['roboto:400,400i,500,700'],
